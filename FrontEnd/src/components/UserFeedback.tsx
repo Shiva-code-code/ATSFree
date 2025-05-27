@@ -4,7 +4,7 @@ const UserFeedback = () => {
   const [rating, setRating] = useState(0);
 
   return (
-    <div className="bg-white p-6 rounded-xl shadow-lg space-y-6">
+    <div className="bg-white p-6 rounded-3xl shadow-2xl space-y-6">
       <h3 className="text-slate-800 text-lg font-semibold">User Feedback</h3>
 
       {/* Static Testimonials */}
@@ -49,7 +49,7 @@ const UserFeedback = () => {
           placeholder="Tell us about your experience..."
           className="w-full mb-3 px-4 py-2 border border-slate-300 rounded text-sm resize-none focus:ring-2 focus:ring-blue-500"
         />
-        <button className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition">
+        <button className="w-full bg-blue-600 text-white py-2 rounded-3xl hover:bg-blue-700 transition">
           Submit Feedback
         </button>
       </div>

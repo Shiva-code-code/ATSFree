@@ -16,7 +16,7 @@ const UploadBox: React.FC<UploadBoxProps> = ({ label, file, setFile, type }) => 
   };
 
   return (
-    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+    <div className="bg-white p-6 rounded-3xl shadow-xl hover:shadow-xl transition-shadow">
       <div className="relative flex flex-col items-center justify-center border-2 border-dashed border-slate-300 rounded-xl p-8 text-center hover:border-blue-500 hover:bg-slate-50 transition-colors group cursor-pointer">
         <span className="material-icons-outlined text-6xl text-slate-400 group-hover:text-blue-500 transition-colors">
           {type === "resume" ? "cloud_upload" : "description"}
